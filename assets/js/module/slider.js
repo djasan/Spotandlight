@@ -13,6 +13,7 @@ const initSlider = () => {
     sliderHTML.append(imgA);
 }
 const nextSlider=()=>{
+    console.log("Changement vers la chanson suivante");
     document.querySelector("#coverSlider").src = coverUrl + catalogue[currentTrack].cover;
     document.querySelector("#imgA").classList.add("transSlider","slideRight");
     setTimeout(()=>{
@@ -22,6 +23,7 @@ const nextSlider=()=>{
     
 }
 const prevSlider=()=>{
+    console.log("Changement vers la chanson precedente");
     document.querySelector("#coverSlider").src = coverUrl + catalogue[currentTrack].cover;
     document.querySelector("#imgA").classList.add("transSlider","slideLeft");
     setTimeout(()=>{

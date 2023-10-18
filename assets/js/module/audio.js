@@ -1,7 +1,13 @@
 
-const audio = (status = "init") => {
 
-    const urlAudio = "./assets/audio/";
+
+
+
+
+
+const audio = (status = "init") => {
+    console.log("Initialisation du lecteur audio");
+    const urlAudio = "./assets/audio";
     
     switch (status) {
         case "init":

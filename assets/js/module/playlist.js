@@ -1,6 +1,14 @@
-import { catalogue } from './module/catalogue.js';
+
+
+
+
+
+
+import { catalogue } from './assets/js/module/catalogue.js';
 
 const playList = () => {
+    console.log("Affichage de la playlist");
+
     const playListHTML = document.querySelector("#playlist");
     playListHTML.innerHTML = "<ul>";
 

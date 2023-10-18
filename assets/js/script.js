@@ -16,14 +16,17 @@ globalThis.isPlaying = false;
 // fonction chargée de gérer l'etat de mon bouton Play/Pause
 const statusBPP = ()=>{
     if (!isPlaying) {
+        console.log("L'état de lecture est : Pause");
         playPause.textContent = "Play";
     } else {
+        console.log("L'état de lecture est : Play");
         playPause.textContent = "Pause";
     }
 }
 
 // click sur le bouton next
 nextButton.addEventListener("click", () => {
+    console.log("Bouton Next cliqué");
     if (currentTrack < catalogue.length - 1) {
         currentTrack++;
     } else {
