@@ -7,7 +7,7 @@
 
 const audio = (status = "init") => {
     console.log("Initialisation du lecteur audio");
-    const urlAudio = "./assets/audio";
+    const urlAudio = "./assets/js/module/audio.js";
     
     switch (status) {
         case "init":
