@@ -1,8 +1,7 @@
-import { catalogue } from "./modules/catalogue.js";
-import { slider } from "./modules/slider.js";
-import { audio } from "./modules/audio.js";
-import { playList } from "./modules/playlist.js";
-//console.dir(catalogue);
+import { catalogue } from "./assets/js/module/catalogue.js";
+import { slider } from "./assets/js/module/slider.js";
+import { audio } from "./assets/js/module/audio.js";
+import { playList } from "./assets/js/module/playlist.js";
 
 
 const prevButton = document.querySelector("#prev");
